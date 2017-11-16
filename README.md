@@ -49,6 +49,7 @@ plot1<-ggplot(dataframetop20,aes(x=reorder(Word,-Freq),y=Freq,fill=Word))+geom_b
 * Mataching our data to Sentiment Liraray.
 ## Sentiment Library
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(59).png)
+* Applying Algo
 ## Model1
 ```
 emotion_library("Its really nice place to stay especially for business and tourist purpose.")
