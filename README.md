@@ -104,14 +104,21 @@ svmanalysis("Table and chair not clean. Not value for money. PC lan cable has so
 ```
 # SVM Model 3
 * Splitting the data taking n-grams =2 and analyzing the n-grams.
-* Input
-```
-barplot_emotionalanalysis("it was a worst day")
-```
-* Output
-```
- [,1]
-[1,]  0.7
-[2,]  1.9
-```
+ * Splitting
+ ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(68).png)
+  * Input
+  ```
+  barplot_emotionalanalysis("it was a worst day ")
+  ```
+  * Output
+  ```
+  word1 word2
+ 1    it   was
+ 2   was     a
+ 3     a worst
+ 4 worst   day
+ * Output
+ ```
+  
+
 
