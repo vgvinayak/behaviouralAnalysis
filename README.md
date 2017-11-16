@@ -46,10 +46,8 @@ plot1<-ggplot(dataframetop20,aes(x=reorder(Word,-Freq),y=Freq,fill=Word))+geom_b
 ```
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(25).png)
 # Sentiment Libraray Method
-* Mataching our data to Sentiment Liraray.
-## Sentiment Library
+## Mataching our data to Sentiment Liraray.
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(59).png)
-* Applying Algo
 ## Model1
 ```
 emotion_library("Its really nice place to stay especially for business and tourist purpose.")
@@ -65,7 +63,14 @@ emotion_library("Table and chair not clean. Not value for money. PC lan cable ha
 emotion_library("Table and chair not clean. Not value for money. PC lan cable has so much dust but WiFi Internet speed is too good. Bar service is too bad only one waiter serving to all customer. Serving food like tandoori chicken is very salty.")
 ```
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(61).png)
+
+# Naive-Bayes Model
+Training the data and predicting
 ```
+analysis("It was a worst day")
+```
+![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(65).png)
+![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(65).png)
 
 
 
