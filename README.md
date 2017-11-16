@@ -16,5 +16,8 @@ Pre-processing involves
   Process involve converting the data to Document Term Matrix
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(58).png)
 ## Frequency Analysis
-* Frequency analysis without Cleaning the 
+* Frequency analysis without Cleaning the data
+![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(25).png)
+* Frequency analysis after Cleaning the data
+![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(25).png)
 
