@@ -65,12 +65,53 @@ emotion_library("Table and chair not clean. Not value for money. PC lan cable ha
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(61).png)
 
 # Naive-Bayes Model
-Training the data and predicting
+Splitting the data taking n-grams to be 2 ,Training the data and predicting.
 ```
 analysis("It was a worst day")
 ```
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(64).png)
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(65).png)
 
-
+# SVM Model1
+* Taking the "1" and "2" as "not 3"
+* Input
+```
+ svmanalysis("The staff of the hotel were polite.  The brick oven chefs were extremely helpful and all the meals were very good.  The room was as advertised and clean.  My stay of 2 days was very comfortable and I would recommend this hotel  to others.")
+ ```
+ * Output
+ ```
+ SVM_LABEL  SVM_PROB
+1         3 0.9523517
+```
+* Input
+```
+svmanalysis("It was a comfortable stay and I liked the hotel srvices")
+```
+* Output
+```
+SVM_LABEL SVM_PROB
+1         3 0.813309
+```
+# SVM Model 2
+* Input
+```
+svmanalysis("Table and chair not clean. Not value for money. PC lan cable has so much dust but WiFi Internet speed is too good. Bar service is too bad only one waiter serving to all customer. Serving food like tandoori chicken is very salty.")
+```
+* Output
+```
+ SVM_LABEL  SVM_PROB
+1         2 0.8455984
+```
+# SVM Model 3
+* Splitting the data taking n-grams =2 and analyzing the n-grams.
+* Input
+```
+barplot_emotionalanalysis("it was a worst day")
+```
+* Output
+```
+ [,1]
+[1,]  0.7
+[2,]  1.9
+```
 
