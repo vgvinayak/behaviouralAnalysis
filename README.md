@@ -69,7 +69,7 @@ Training the data and predicting
 ```
 analysis("It was a worst day")
 ```
-![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(65).png)
+![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(64).png)
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(65).png)
 
 
