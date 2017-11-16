@@ -20,4 +20,7 @@ Pre-processing involves
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(25).png)
 * Frequency analysis after Cleaning the data
 ![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(25).png)
-
+# Sentiment Libraray Method
+* Mataching our data to Sentiment Liraray.
+** Sentiment Library
+![xyz](https://github.com/vgvinayak/behaviouralAnalysis/blob/master/Screenshot%20(59).png)
