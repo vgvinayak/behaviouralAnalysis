@@ -6,8 +6,7 @@ library(e1071)
 library(RTextTools)
 library(tm)
 
-training_the_data function(a)
-{
+training_the_data function(a)<-{
 traindataframe<-read.csv(a)
 traindataframe1<-traindataframe[traindataframe$Sentiment==1,c(3,4)]
 traindataframe2<-traindataframe[traindataframe$Sentiment==2,c(3,4)]
@@ -32,8 +31,7 @@ return(trainingthemodel)
 }
 
 
-barplot_emotionalanalysis
-function(b){
+barplot_emotionalanalysis<-function(b){
     library(tidyr)
     library(tidyr)
     library(tidytext)
